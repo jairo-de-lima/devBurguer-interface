@@ -1,12 +1,59 @@
-# React + Vite
+# 🍔 DevBurguer Interface
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o **frontend completo** do sistema **DevBurguer**, desenvolvido com React e Vite durante o curso do **DevClub**. A interface foi criada para uma **hamburgueria** gerenciar seus produtos e pedidos de forma prática, com integração para pagamentos online.
 
-Currently, two official plugins are available:
+## 📋 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ **Cadastro, edição e remoção de produtos**
+- 🍔 **Upload de imagens para os produtos**
+- 🛒 **Carrinho de compras com gerenciamento de itens**
+- 💳 **Integração com Stripe para pagamentos**
+- 📦 **Visualização e finalização de pedidos**
 
-## Expanding the ESLint configuration
+## 🧪 Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React 19** com **Vite**
+- **React Router DOM** para navegação
+- **Styled-components** e **Material UI (MUI)** para estilos
+- **React Hook Form** + **Yup** para formulários e validação
+- **Axios** para requisições HTTP
+- **Stripe** para pagamentos online
+- **React Toastify** para notificações
+
+## 🚀 Como rodar o projeto
+
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/jairo-de-lima/devBurguer-interface.git
+    ```
+
+2. Acesse a pasta:
+    ```bash
+    cd devBurguer-interface
+    ```
+
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
+
+4. Inicie o servidor de desenvolvimento:
+    ```bash
+    npm run dev
+    ```
+
+## 📦 Scripts disponíveis
+
+| Comando            | Descrição                                |
+|--------------------|--------------------------------------------|
+| `npm run dev`      | Inicia o servidor de desenvolvimento       |
+| `npm run build`    | Gera o build para produção                 |
+| `npm run preview`  | Visualiza o build de produção localmente   |
+| `npm run lint`     | Executa o ESLint para verificar problemas  |
+
+---
+
+## 🧑‍💻 Desenvolvido por
+
+**Jairo de Lima**  
+[GitHub](https://github.com/jairo-de-lima)
